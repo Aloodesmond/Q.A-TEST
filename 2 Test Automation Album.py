@@ -11,7 +11,6 @@ driver = webdriver.Chrome()
 # Open the page
 driver.get("http://127.0.0.1:5501/albums.html")
 driver.maximize_window()
-
 # Wait for elements to load
 wait = WebDriverWait(driver, 30)
 
